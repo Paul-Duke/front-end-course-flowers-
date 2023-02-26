@@ -1,0 +1,28 @@
+{
+  "name": "front-end-course-flowers-",
+  "version": "1.0.0",
+  "description": " My educational front-end project. It is website for a flower shop.",
+  "main": "scripts/init/init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Duke/front-end-course-flowers-.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Pavlo Protsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Duke/front-end-course-flowers-/issues"
+  },
+  "homepage": "https://github.com/Paul-Duke/front-end-course-flowers-#readme",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
