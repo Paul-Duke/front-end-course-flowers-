@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <title>Flower Design</title>
+    <script defer type="module" src="scripts/flowerCatalog/flowerCatalog_init.js"></script>
+    <script defer type="module" src="scripts/comments/comments_init.js"></script>
+    <script defer type="module" src="scripts/init_and_createComment/init_and_createComment.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="logo" src="images\logo_color.png">
+            <nav class="main__nav">
+                <span class="nav" id="nav">
+                    <div class="burger" onclick="toggleMobileMenu()">
+                        <div class="burger__bar"></div>
+                        <div class="burger__bar"></div>
+                        <div class="burger__bar"></div>
+                    </div>
+                   <a class="nav__item" href="#">Каталог</a>
+                   <a class="nav__item" href="#">Про нас</a>
+                   <a class="nav__item" href="#">Забери букет</a>
+                   <a class="nav__item" href="#">Контакти</a>
+                </span>
+               <span class="nav__images">
+                    <a class="nav__image" href="#">
+                        <img class="nav__item__image" src="images\lupa.png" alt="Пошук">
+                    </a>
+                    <a class="nav__image" href="#">
+                        <img class="nav__item__image" src="images\basket.png" alt="Кошик">
+                    </a>
+               </span>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="first__section">
+                <article class="first__section__article">
+                    <h1>Букет із кущових троянд “Довгоочікуване щастя”</h1>
+                    <p>Ніжний та витончений шик у букеті з троянд - гарний вибір для коханої людини</p>
+                    <div class="first__section__buttons">
+                        <input class="pink__button shadow__for__pink__button" type="submit" value="В кошик">
+                        <input class="white__button" type="submit" value="В каталог">
+                    </div>
+                </article>
+                <img class="first__section__image" src="images\bg_web-no-background.png" alt="Букети квітів">
+            </section>
+    
+            <section class="second__section">
+                    <span class="choosing__bouquet">
+                        <input class="second__section__button" type="submit" value="Букети">
+                    </span>
+                    <span class="choosing__flowers">
+                        <input class="second__section__button" type="submit" value="Живі квіти">
+                    </span>
+                    <span class="own__bouquet">
+                        <input class="second__section__button" type="submit" value='"Свій" букет'>
+                    </span>
+                    <span class="second__section__bottom">
+                        <span class="about__us">
+                            <h1>Про нас</h1>
+                            <div class="about__us__text">
+                                <span class="for__veltical__line"></span>
+                                <p>Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються від такого достатку.</p>
+                            </div>
+                            <p>Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини, ніжні фіалки, усипані квітами, аспарагуси, фікуси.</p>
+                        </span>
+                        <span class="second__section__women">
+                            <img class="women" src="images\women.png" alt="Жінки">
+                            <div class="social__networks">
+                                <a class="social__network" href="https://www.instagram.com/">
+                                    <img class="social__network__image" src="images\inst.png" alt="Instagram">
+                                </a>
+                                <a class="social__network" href="https://www.facebook.com/">
+                                    <img class="social__network__image" src="images\fb.png" alt="Facebook">
+                                </a>
+                                <a class="social__network" href="https://www.viber.com/ua/">
+                                    <img class="social__network__image__viber" src="images\viber.png" alt="Viber">
+                                </a>
+                            </div>
+                        </span>
+                    </span>       
+            </section>
+                
+            <section class="third__section">
+                <h1>Працюємо для вас</h1>
+                <div class="work__for__you">
+                    <span>
+                        <img class="third__section__image__onetwo" src="images\constructor.png" alt="Конструктор букета">
+                        <p>Конструктрор унікального букета</p>
+                    </span>
+                    <span>
+                        <img class="third__section__image__onetwo" src="images\delivery.png" alt="Доставка">
+                        <p>Безкоштовна доставка по місту до 2-х годин</p>
+                    </span>
+                    <span>
+                        <img class="third__section__image__three" src="images\indoor.png" alt="Кімнатні рослини">
+                        <p>Наявність кімнатних рослин</p>
+                    </span>
+                    <span>
+                        <img class="third__section__image__four" src="images\for_loved_ones.png" alt="Квіти для рідних і коханих">
+                        <p>Наявність кімнатних рослин</p>
+                    </span>
+                </div>
+            </section>
+    
+            <section class="fourth__section">
+                <h1>Каталог</h1>
+                <div class="catalog" id="catalog">
+                    <div class="arrows">
+                        <span class="arrow" id="arrow">
+                            <img class="left__arrow active" id="leftArrow" src="images\Arrow 2.png" alt="Стрілка в ліво">
+                        </span>
+                        <span class="arrow">
+                            <img class="right__arrow active" id="rightArrow" src="images\Arrow 2.png" alt="Стрілка в право">
+                        </span>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="five__section">
+                <h1>Відгуки</h1>
+                <img class="five__section__flower__top" src="images\flowers 1.png" alt="Квітка">
+                <img class="five__section__flower__bottom" src="images\flowers 2.png" alt="Квіти">
+                <div class="reviews" id="reviews">
+                    <span class="comments" id="comments"></span>
+                    
+                   
+                    <div class="arrows">
+                        <span class="arrow" id="comments__arrow">
+                            <img class="left__arrow active" id="leftCommentsArrow" src="images\Arrow 2.png" alt="Стрілка в ліво">
+                        </span>
+                        
+                        <span class="arrow">
+                            <img class="right__arrow active" id="rightCommentsArrow" src="images\Arrow 2.png" alt="Стрілка в право">
+                        </span>
+                    </div>
+                    <div class="add__review">
+                        <h2>Додати відгук:</h2>
+                        <form class="review__form" id="form">
+                            <input class="user__name" id="userName" type="text" placeholder="Ваше і'мя">
+                            <textarea name="comment" id="text" placeholder="Ваш відгук:" cols="30" rows="10"></textarea>
+                            <button class="pink__button shadow__for__pink__button" type="submit">Відправити</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="six__section">
+                <h1>Доставка і оплата</h1>
+                <div class="six__section__items">
+                    <span>
+                        <div class="six__section__item">
+                            <p>1</p>
+                        </div>
+                        <p>Ви замовляєте букет черезкаталог</p>
+                    </span>
+                    <span>
+                        <div class="six__section__item">
+                            <p>2</p>
+                        </div>
+                        <p>Ви оплачуєте товар через картку VISA або MC, або Приват24</p>
+                    </span>
+                    <span>
+                        <div class="six__section__item">
+                            <p>3</p>
+                        </div>
+                        <p>Вам передзвонять наші менеджери, якщо потрібно щось уточнити</p>
+                    </span>
+                    <span>
+                        <div class="six__section__item">
+                            <p>4</p>
+                        </div>
+                        <p>Надсилаємо фото зібраного букета, щоб узгодити все</p>
+                    </span>
+                    <span>
+                        <div class="six__section__item">
+                            <p>5</p>
+                        </div>
+                        <p>Доставляємо букет одержувачу протягом 2-х годин</p>
+                    </span>
+                    <span>
+                        <div class="six__section__item">
+                            <p>6</p>
+                        </div>
+                        <p>Сповістимо Вас дзвінком або повідомленням про доставку букета</p>
+                    </span>
+                </div>
+                
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <img class="footer__logo" src="images\logo_color.png" alt="Лого">
+            <img class="footer__flover" src="images\flowers 3.png" alt="Квіти">
+            <div class="footer__items">
+                <span class="footer__item">
+                    <h1>Контакти</h1>
+                    <p>(095) 000 00 00</p>
+                    <p>(097) 000 00 00</p>
+                    <p>Ми працюємо цілодобово</p>
+                </span>
+                <span class="footer__item">
+                    <h1>Інформація</h1>
+                    <a href="#">Про нас</a>
+                    <a href="#">Хіт продажу</a>
+                    <a href="#">Відгуки</a>
+                    <a href="#">Доставка і оплата</a>
+                </span>
+                <span class="footer__item">
+                    <h1>Каталог</h1>
+                    <a href="#">Збери свій букет</a>
+                    <a href="#">Живі квіти</a>
+                    <a href="#">Кімнатні рослини</a>
+                </span>
+                <span class="footer__item footer__last">
+                    <form class="footer__form" action="">
+                        <input class="footer__form__text" type="text" placeholder="Введіть свій e-mail">
+                        <input class="pink__button" type="submit" value="Підписатися">
+                    </form>
+                    <div class="footer__socialweb">
+                        <a href="https://www.instagram.com/">
+                            <img class="social__network__image" src="images\inst.png" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <img class="social__network__image" src="images\fb.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.viber.com/ua/">
+                            <img class="social__network__image__viber" src="images\viber.png" alt="Viber">
+                        </a>
+                    </div>
+                    <p class="copyright">Copyright Ⓒ 2022</p>
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        const nav = document.getElementById('nav');
+
+        function toggleMobileMenu() {
+            nav.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
