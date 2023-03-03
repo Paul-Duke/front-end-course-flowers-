@@ -565,7 +565,7 @@ body {
 
 .add__review h2 {
   background-color:#ecf3ff;
-  width: 160px;
+  width: fit-content;
 }
 
 .review__form {
